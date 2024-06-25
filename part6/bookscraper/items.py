@@ -12,6 +12,7 @@ class BookscraperItem(scrapy.Item):
     pass
 
 class BookItem(scrapy.Item):
+
     url = scrapy.Field()
     title = scrapy.Field()
     product_type = scrapy.Field()
